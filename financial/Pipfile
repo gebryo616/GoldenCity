@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+altair = "*"
+pandas = "*"
+streamlit = "*"
+matplotlib = "*"
+plotly = "==5.4.0"
+plotly-express = "==0.4.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
