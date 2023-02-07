@@ -16,7 +16,7 @@ def space(num_lines=1):
 
 st.set_page_config(layout="wide",page_icon="💰",page_title="How Finance Works")
 #add a title
-#st.image('header2.jpeg')
+st.image('financial/header2.jpeg')
 #st.title('Financial Analysis')
 space(1)
 
@@ -58,8 +58,8 @@ def Visual_Metrics(data):
 #Load data from csv files
 
 
-mydir1 = "data/chart1"
-mydir2 = "data/chart2"
+mydir1 = "financial/data/chart1"
+mydir2 = "financial/data/chart2"
 
 csvfiles1 = glob.glob(os.path.join(mydir1, '*.csv'))
 df_dict1 = dict()
